@@ -19,7 +19,7 @@ include 'Plugins:RuneUnityPlugin'
 include 'Plugins:SimplicityPlugin'
 include 'Plugins:SimplicityWithOSRSPlugin'
 include 'Plugins:VencilloPlugin'
-include 'Plugins:ImaginePlugin'
+//include 'Plugins:ImaginePlugin' // Directory does not exist
 include 'Plugins:SatucrePlugin'
 include 'Plugins:AlerionPlugin'
 include 'Plugins:NecroticPlugin'

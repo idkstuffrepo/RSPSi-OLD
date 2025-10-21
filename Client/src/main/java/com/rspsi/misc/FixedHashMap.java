@@ -17,10 +17,10 @@ public class FixedHashMap<K, V> {
 	
 	public void put(K key, V value) {
 		if(map.size() >= maxSize) {
-			Set<Entry<K, V>> copy = map.entrySet();
+			HashMap<K, V> copy = new HashMap<>(map);
 			map.clear();
 			boolean b = true;
-			for(Entry<K, V> entry : copy) {
+			for(Entry<K, V> entry : copy.entrySet()) {
 				if(b) {
 					b = false;
 					continue;
